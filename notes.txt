@@ -40,7 +40,13 @@
 	=> implement "@Test void testDelete(){}"
 (12) implement "list()" in "ContactDAOImpl" class
 	=> implement "@Test void testList(){}"
-
+(13) create "config" package
+	=> create "WebAppInitializer" class implements WebApplicationInitializer
+		=> onStartup(), ApplicationContext, SpringDispatcher
+	=> create "SpringMvcConfig" class
+		=> @Bean getDataSource()
+		=> @Bean getViewResolver()
+		=> @Bean getContactDAO()
 
 
 
