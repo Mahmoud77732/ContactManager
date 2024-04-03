@@ -25,7 +25,21 @@
 		=> implements "ContactDAO" interface
 		=> private JdbcTemplate jdbcTemplate;
 	
-(7)
+(7) implement "save()" in "ContactDAOImpl" class
+	=> create a test class for "ContactDAO" interface
+	=> implement "@Test void testSave(){}"
+(8) implement "@BeforeEach method(){}" to insert datasource 
+	info {driver_class_name, url, suername, pass} 
+	before each method {save(), update(), ...etc} 
+	instead of repeating the datasource_info code in each method
+(9) implement "update()" in "ContactDAOImpl" class
+	=> implement "@Test void testUpdate(){}"
+(10) implement "get()" in "ContactDAOImpl" class
+	=> implement "@Test void testGet(){}"
+(11) implement "delete()" in "ContactDAOImpl" class
+	=> implement "@Test void testDelete(){}"
+(12) implement "list()" in "ContactDAOImpl" class
+	=> implement "@Test void testList(){}"
 
 
 
