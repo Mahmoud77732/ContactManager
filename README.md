@@ -1,2 +1,2 @@
 # ContactManager
-ContactManager project created with SpringMVC + JUnit + MYSQL
+ContactManager project created with SpringMVC + JDBC +  JUnit + MYSQL
