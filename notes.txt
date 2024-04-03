@@ -1,0 +1,47 @@
+(1) create database contactdb;
+(2) use contactdb;
+(3) CREATE TABLE contact (
+    	contact_id int(11) NOT NULL AUTO_INCREMENT,
+    	name varchar(45) NOT NULL,
+    	email varchar(45) not null,
+    	address varchar(100) not null,
+    	phone varchar(15) not null,
+    	PRIMARY KEY (contact_id)
+    );
+(4) add the dependencies in pom.xml __ <artifactId>s:
+	spring-context
+	spring-webmvc
+	spring-orm
+	javax.servlet.jsp-api
+	jstl
+	mysql-connector-java
+(5) create "model" package 
+	=> create "Contact" class 
+	=> create the constructor + getters/setters
+(6) create "dao" package
+	=> create "ContactDAO" interface
+	=> create methods definitions for {save(), update(), get(), delete(), list()}
+	=> create "ContactDAOImpl" class 
+		=> implements "ContactDAO" interface
+		=> private JdbcTemplate jdbcTemplate;
+	
+(7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
