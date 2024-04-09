@@ -47,6 +47,14 @@
 		=> @Bean getDataSource()
 		=> @Bean getViewResolver()
 		=> @Bean getContactDAO()
+(14) create "controller" package
+	=> create "@Controller MainController"
+(15) add <maven.test.skip>true</maven.test.skip> in pom.xml_<properties>
+(16)
+(17)
+(18)
+(19)
+(20)
 
 
 

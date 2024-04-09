@@ -1,5 +1,0 @@
-# Created at 2024-04-03T05:57:43.500
-Boot Manifest-JAR contains absolute paths in classpath 'E:\apps\springapps\SpringMVCCRUD\ContactManager\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-'other' has different root
-

@@ -1,2 +1,8 @@
-E:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\JAXRSConfiguration.java
-E:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\resources\JavaEE8Resource.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\config\WebAppInitializer.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\dao\ContactDAOImpl.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\resources\JavaEE8Resource.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\model\Contact.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\dao\ContactDAO.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\JAXRSConfiguration.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\controller\MainController.java
+D:\apps\springapps\SpringMVCCRUD\ContactManager\src\main\java\com\springmvc\contactmanager\config\SpringMvcConfig.java

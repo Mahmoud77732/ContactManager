@@ -33,30 +33,30 @@ public class ContactDAOTest {
     @BeforeEach
     public void setUpBeforeEach() {
         dataSource = new DriverManagerDataSource();
-        dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/contactdb");
-        dataSource.setUsername("springstudent");
-        dataSource.setPassword("springstudent");
+        dataSource.setUsername("root");
+        dataSource.setPassword("");
         dao = new ContactDAOImpl(dataSource);
     }
 
     @Test
     void testSave(){
-        Contact contact = new Contact("Eslam", "eslam1@gmail.com", "egypt, Cairo", "01050699");
+        Contact contact = new Contact("Mahmoud", "mahmoud@gmail.com", "egypt, Giza", "0100177");
         int result = dao.save(contact);
         assertTrue(result > 0);
     }
     
     @Test
     void testUpdate(){
-        Contact contact = new Contact(1, "Mohamed", "m1@gmail.com", "egypt, giza", "010011");
+        Contact contact = new Contact(3, "Mohamed", "m1@gmail.com", "egypt, giza", "010011");
         int result = dao.update(contact);
         assertTrue(result > 0);
     }
     
     @Test
     void testGet(){
-        Integer id = 1;
+        Integer id = 4;
         Contact contact = dao.get(id);
         if(contact != null){
             System.out.println(contact);
@@ -66,7 +66,7 @@ public class ContactDAOTest {
     
     @Test
     void testDelete(){
-        Integer id = 2;
+        Integer id = 1;
         int result = dao.delete(id);
         assertTrue(result > 0);
     }

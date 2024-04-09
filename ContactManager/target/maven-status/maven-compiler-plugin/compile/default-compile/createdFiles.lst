@@ -1,2 +1,10 @@
+com\springmvc\contactmanager\controller\MainController.class
+com\springmvc\contactmanager\dao\ContactDAOImpl$1.class
 com\springmvc\contactmanager\JAXRSConfiguration.class
+com\springmvc\contactmanager\dao\ContactDAOImpl$2.class
 com\springmvc\contactmanager\resources\JavaEE8Resource.class
+com\springmvc\contactmanager\dao\ContactDAOImpl.class
+com\springmvc\contactmanager\config\SpringMvcConfig.class
+com\springmvc\contactmanager\config\WebAppInitializer.class
+com\springmvc\contactmanager\dao\ContactDAO.class
+com\springmvc\contactmanager\model\Contact.class
