@@ -49,12 +49,12 @@
 		=> @Bean getContactDAO()
 (14) create "controller" package
 	=> create "@Controller MainController"
-(15) add <maven.test.skip>true</maven.test.skip> in pom.xml_<properties>
-(16)
-(17)
-(18)
-(19)
-(20)
+(15) create "views" folder in "WEB-INF" and create "inedx.jsp" page
+(16) add <maven.test.skip>true</maven.test.skip> in pom.xml_<properties>
+(17) add "jstl" taglib to "index.jsp" page
+(18) implement "addContact()" in "MinController"
+(19) develop "contact-form.jsp"
+(20) develop "saveContact()", "editContact()"
 
 
 

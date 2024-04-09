@@ -16,6 +16,10 @@ public class Contact {
     private String address;
     private String phone;
     
+    public Contact(){
+    
+    }
+    
     public Contact(Integer id, String name, String email, String address, String phone) {
         this(name, email, address, phone);
         this.id = id;
