@@ -55,6 +55,7 @@
 (18) implement "addContact()" in "MinController"
 (19) develop "contact-form.jsp"
 (20) develop "saveContact()", "editContact()"
+(21) develop "deleteContact()"
 
 
 

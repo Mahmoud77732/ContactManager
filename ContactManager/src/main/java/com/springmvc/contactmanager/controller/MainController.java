@@ -10,10 +10,12 @@ import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -70,6 +72,12 @@ public class MainController {
         model.addObject("contact", contact);
         model.setViewName("contact-form");
         return model;
+    }
+    
+    @GetMapping("/delete")
+    public ModelAndView deleteContact(@RequestParam Integer id){
+        contactDAO.delete(id);
+        return new ModelAndView("redirect:/main-controller/");
     }
     
 }

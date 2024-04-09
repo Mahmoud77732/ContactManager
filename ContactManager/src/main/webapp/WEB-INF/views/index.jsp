@@ -35,7 +35,7 @@
                         <td>${contact.phone}</td>
                         <td colspan="2">
                             <a href="edit?id=${contact.id}" style="margin-right: 20px;">Edit</a>
-                            <a href="#">Delete</a>
+                            <a href="delete?id=${contact.id}">Delete</a>
                         </td>
                     </tr>
                 </c:forEach>
